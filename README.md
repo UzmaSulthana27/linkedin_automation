@@ -38,3 +38,26 @@ Variables are stored in a `.env` file (not committed to Git) and loaded at runti
 An example template is provided in `.env.example`.
 
 ## 🏗 Project Structure
+
+
+go-learning/
+│
+├── cmd/
+│   └── app/
+│       └── main.go          # Application entry point
+│
+├── internal/
+│   └── browser/
+│       └── browser.go       # Browser automation logic
+│
+├── mock/
+│   ├── login.html           # Mock login page
+│   ├── profiles.html        # Mock profiles page
+│   └── messages.html        # Mock messaging page
+│
+├── data/
+│   └── state.json           # Persistent automation state
+│
+├── .env.example             # Environment variable template
+├── go.mod                   # Go module file
+└── README.md                # Project documentation
