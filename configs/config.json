@@ -1,0 +1,5 @@
+{
+  "delaySeconds": 2,
+  "dailyConnectionLimit": 10,
+  "followUpMessage": "Thanks for connecting! Looking forward to staying in touch."
+}

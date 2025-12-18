@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mock Profiles</title>
+</head>
+<body>
+  <h2>People You May Know</h2>
+
+  <div class="profile">
+    <span class="name">Alice</span>
+    <button class="connect">Connect</button>
+  </div>
+
+  <div class="profile">
+    <span class="name">Bob</span>
+    <button class="connect">Connect</button>
+  </div>
+
+  <div class="profile">
+    <span class="name">Charlie</span>
+    <button class="connect">Connect</button>
+  </div>
+
+  <script>
+    document.querySelectorAll(".connect").forEach(btn => {
+      btn.onclick = () => {
+        btn.innerText = "Requested";
+        btn.disabled = true;
+      };
+    });
+  </script>
+</body>
+</html>

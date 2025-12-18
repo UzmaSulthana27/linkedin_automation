@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mock Messages</title>
+</head>
+<body>
+  <h2>Messages</h2>
+
+  <div class="chat">
+    <span class="name">Alice</span><br>
+    <textarea class="messageBox"></textarea><br>
+    <button class="send">Send</button>
+    <p class="status"></p>
+  </div>
+
+  <div class="chat">
+    <span class="name">Bob</span><br>
+    <textarea class="messageBox"></textarea><br>
+    <button class="send">Send</button>
+    <p class="status"></p>
+  </div>
+
+  <script>
+    document.querySelectorAll(".send").forEach(btn => {
+      btn.onclick = () => {
+        btn.parentElement.querySelector(".status").innerText =
+          "Message sent successfully";
+      };
+    });
+  </script>
+</body>
+</html>

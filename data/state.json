@@ -1,0 +1,11 @@
+{
+  "sentConnections": [
+    "Alice",
+    "Bob",
+    "Charlie"
+  ],
+  "sentMessages": [
+    "Alice",
+    "Bob"
+  ]
+}

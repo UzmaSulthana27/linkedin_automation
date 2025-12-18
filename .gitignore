@@ -1,0 +1,17 @@
+# Environment files
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Go build files
+bin/
+*.exe
+*.out
+
+# VS Code
+.vscode/
+
+# Chrome user data (if inside project)
+chrome-rod/
